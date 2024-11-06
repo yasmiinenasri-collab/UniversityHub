@@ -27,6 +27,7 @@ public class UniversiteService implements IUniversiteService {
 
     @Override
     public Universite addUniversity(Universite u) {
+            log.info("Adding a new university: {}", u.getNomUniversite());
         return universiteRepository.save(u);
     }
 
@@ -37,6 +38,8 @@ public class UniversiteService implements IUniversiteService {
 
     @Override
     public Universite retrieveUniversity(long idUniversity) {
+            log.debug("Retrieving university with ID: {}", idUniversity);
+
         return universiteRepository.findById(idUniversity).orElse(null);
     }
 
