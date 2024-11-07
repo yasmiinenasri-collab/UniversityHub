@@ -1,9 +1,6 @@
-/*package tn.esprit.tpfoyer17.test.java;
-
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.MethodOrderer;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestMethodOrder;
+package tn.esprit.tpfoyer17;
+import jakarta.transaction.Transactional;
+import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -11,9 +8,9 @@ import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import tn.esprit.tpfoyer17.entities.Foyer;
 import tn.esprit.tpfoyer17.entities.Universite;
-import tn.esprit.tpfoyer17.services.impementations.UniversiteService;
 import tn.esprit.tpfoyer17.services.interfaces.IFoyerService;
 import tn.esprit.tpfoyer17.services.interfaces.IUniversiteService;
+import tn.esprit.tpfoyer17.repositories.UniversiteRepository;
 
 import java.util.List;
 
@@ -22,12 +19,17 @@ import java.util.List;
 @SpringBootTest
 @ActiveProfiles("test")
 public class UniversiteServiceTest {
-
     @Autowired
     IUniversiteService universiteService;
-
     @Autowired
     IFoyerService foyerService;
+    @Autowired
+    UniversiteRepository universiteRepository;
+    @BeforeEach
+    public void setUp() {
+        // Assurez-vous de vider la base de données avant chaque test
+        universiteRepository.deleteAll();
+    }
 
     // Test for addUniversity()
     @Test
@@ -44,17 +46,21 @@ public class UniversiteServiceTest {
 
     // Test for retrieveAllUniversities()
     @Test
+
     public void testRetrieveAllUniversities() {
         Universite universite1 = Universite.builder().nomUniversite("Université A").build();
         Universite universite2 = Universite.builder().nomUniversite("Université B").build();
+
+        // Ajouter les universités
         universiteService.addUniversity(universite1);
         universiteService.addUniversity(universite2);
 
+        // Récupérer toutes les universités
         List<Universite> universites = universiteService.retrieveAllUniversities();
         Assertions.assertFalse(universites.isEmpty(), "La liste des universités ne doit pas être vide");
         Assertions.assertEquals(2, universites.size(), "Il doit y avoir 2 universités récupérées");
 
-        // Nettoyage
+        // Nettoyer les universités après le test
         universiteService.retrieveUniversity(universite1.getIdUniversite());
         universiteService.retrieveUniversity(universite2.getIdUniversite());
     }
@@ -90,18 +96,33 @@ public class UniversiteServiceTest {
     // Test for desaffecterFoyerAUniversite(long idUniversite)
     @Test
     public void testDesaffecterFoyerAUniversite() {
+        // Créer et sauvegarder une université
         Universite universite = Universite.builder().nomUniversite("Université E").build();
         Universite savedUniversite = universiteService.addUniversity(universite);
 
+        // Créer et sauvegarder un foyer
         Foyer foyer = Foyer.builder().nomFoyer("Foyer Test").build();
         foyerService.addFoyer(foyer);
 
-        // Affecter un foyer à l'université
+        // Affecter le foyer à l'université
         universiteService.affecterFoyerAUniversite(foyer.getIdFoyer(), savedUniversite.getNomUniversite());
-        Universite updatedUniversite = universiteService.desaffecterFoyerAUniversite(savedUniversite.getIdUniversite());
 
-        Assertions.assertNull(updatedUniversite.getFoyer(), "Le foyer ne doit pas être associé à l'université après désaffectation");
+        // Récupérer l'université après l'association
+        Universite updatedUniversite = universiteService.retrieveUniversity(savedUniversite.getIdUniversite());
+
+        // Vérifier que le foyer est associé à l'université
+        Assertions.assertNotNull(updatedUniversite.getFoyer(), "Le foyer doit être associé à l'université avant la dissociation");
+
+        // Dissocier le foyer de l'université
+        Universite universiteAfterDesaffectation = universiteService.desaffecterFoyerAUniversite(savedUniversite.getIdUniversite());
+
+        // Vérifier que l'université n'a plus de foyer après la dissociation
+        Assertions.assertNull(universiteAfterDesaffectation.getFoyer(), "Le foyer ne doit pas être associé à l'université après dissociation");
+
+        // Sauvegarder les modifications dans la base de données
+        universiteService.updateUniversity(universiteAfterDesaffectation);
     }
+
 
     // Test for affecterFoyerAUniversite(long idFoyer, String nomUniversite)
     @Test
@@ -112,10 +133,15 @@ public class UniversiteServiceTest {
         Universite universite = Universite.builder().nomUniversite("Université Foyer Test").build();
         Universite savedUniversite = universiteService.addUniversity(universite);
 
+        // Vérifier que l'université est bien récupérée
         Universite updatedUniversite = universiteService.affecterFoyerAUniversite(foyer.getIdFoyer(), savedUniversite.getNomUniversite());
 
+        // Vérifier que le foyer est bien associé à l'université
         Assertions.assertNotNull(updatedUniversite.getFoyer(), "Le foyer doit être associé à l'université");
         Assertions.assertEquals(foyer.getIdFoyer(), updatedUniversite.getFoyer().getIdFoyer(), "L'ID du foyer associé doit correspondre à celui de l'université");
+
+        // Sauvegarder les modifications dans la base de données
+        universiteService.updateUniversity(updatedUniversite);
     }
+
 }
-*/
