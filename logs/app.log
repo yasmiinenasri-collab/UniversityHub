@@ -1051,3 +1051,252 @@ Consider defining a bean of type 'tn.esprit.tpfoyer17.services.interfaces.IUnive
 2024-11-07 17:39:34 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-11-07 17:39:35 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
 2024-11-07 17:39:35 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2024-11-07 18:05:30 INFO  UniversiteService:39 - Updating university with ID: 1
+2024-11-07 18:05:30 INFO  UniversiteService:33 - Adding a new university: ESPRIT
+2024-11-07 18:05:31 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [tn.esprit.tpfoyer17.UniversiteServiceTest]: UniversiteServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-07 18:05:31 INFO  SpringBootTestContextBootstrapper:248 - Found @SpringBootConfiguration tn.esprit.tpfoyer17.TpFoyer17Application for test class tn.esprit.tpfoyer17.UniversiteServiceTest
+2024-11-07 18:05:33 INFO  UniversiteServiceTest:51 - Starting UniversiteServiceTest using Java 17.0.12 with PID 6532 (started by USER in C:\Users\USER\DEVOPS)
+2024-11-07 18:05:33 INFO  UniversiteServiceTest:640 - The following 1 profile is active: "test"
+2024-11-07 18:05:36 INFO  RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-07 18:05:36 INFO  RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 175 ms. Found 6 JPA repository interfaces.
+2024-11-07 18:05:37 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-07 18:05:38 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-11-07 18:05:38 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-11-07 18:05:38 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-07 18:05:38 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-07 18:05:38 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2024-11-07 18:05:39 INFO  HikariPool:565 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-07 18:05:39 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-11-07 18:05:40 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-07 18:05:43 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-07 18:05:43 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-07 18:05:45 INFO  QueryEnhancerFactory:47 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-07 18:05:53 WARN  JpaBaseConfiguration$JpaWebConfiguration:231 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-07 18:06:07 INFO  H2ConsoleAutoConfiguration:88 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-07 18:06:08 INFO  UniversiteServiceTest:57 - Started UniversiteServiceTest in 35.654 seconds (process running for 45.965)
+2024-11-07 18:06:11 INFO  UniversiteService:33 - Adding a new university: Université C
+2024-11-07 18:06:12 INFO  UniversiteService:39 - Updating university with ID: 1
+2024-11-07 18:06:14 INFO  UniversiteService:33 - Adding a new university: Université D
+2024-11-07 18:06:14 INFO  UniversiteService:33 - Adding a new university: Université E
+2024-11-07 18:06:16 INFO  UniversiteService:39 - Updating university with ID: 3
+2024-11-07 18:06:16 INFO  UniversiteService:33 - Adding a new university: Université Foyer Test
+2024-11-07 18:06:16 INFO  UniversiteService:39 - Updating university with ID: 4
+2024-11-07 18:06:16 INFO  UniversiteService:33 - Adding a new university: Université A
+2024-11-07 18:06:16 INFO  UniversiteService:33 - Adding a new university: Université B
+2024-11-07 18:06:16 INFO  UniversiteService:33 - Adding a new university: Université Test
+2024-11-07 18:25:22 INFO  UniversiteService:39 - Updating university with ID: 1
+2024-11-07 18:25:22 INFO  UniversiteService:33 - Adding a new university: ESPRIT
+2024-11-07 18:25:23 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [tn.esprit.tpfoyer17.UniversiteServiceTest]: UniversiteServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-07 18:25:23 INFO  SpringBootTestContextBootstrapper:248 - Found @SpringBootConfiguration tn.esprit.tpfoyer17.TpFoyer17Application for test class tn.esprit.tpfoyer17.UniversiteServiceTest
+2024-11-07 18:25:24 INFO  UniversiteServiceTest:51 - Starting UniversiteServiceTest using Java 17.0.12 with PID 9644 (started by USER in C:\Users\USER\DEVOPS)
+2024-11-07 18:25:24 INFO  UniversiteServiceTest:640 - The following 1 profile is active: "test"
+2024-11-07 18:25:26 INFO  RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-07 18:25:26 INFO  RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 154 ms. Found 6 JPA repository interfaces.
+2024-11-07 18:25:27 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-07 18:25:27 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-11-07 18:25:27 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-11-07 18:25:28 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-07 18:25:28 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-07 18:25:28 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2024-11-07 18:25:29 INFO  HikariPool:565 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-07 18:25:29 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-11-07 18:25:30 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-07 18:25:32 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-07 18:25:33 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-07 18:25:34 INFO  QueryEnhancerFactory:47 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-07 18:25:37 WARN  JpaBaseConfiguration$JpaWebConfiguration:231 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-07 18:25:41 INFO  H2ConsoleAutoConfiguration:88 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-07 18:25:41 INFO  UniversiteServiceTest:57 - Started UniversiteServiceTest in 17.879 seconds (process running for 25.162)
+2024-11-07 18:25:42 INFO  UniversiteService:33 - Adding a new university: Université C
+2024-11-07 18:25:42 INFO  UniversiteService:39 - Updating university with ID: 1
+2024-11-07 18:25:43 INFO  UniversiteService:33 - Adding a new university: Université D
+2024-11-07 18:25:43 INFO  UniversiteService:33 - Adding a new university: Université E
+2024-11-07 18:25:43 INFO  UniversiteService:39 - Updating university with ID: 3
+2024-11-07 18:25:43 INFO  UniversiteService:33 - Adding a new university: Université Foyer Test
+2024-11-07 18:25:43 INFO  UniversiteService:39 - Updating university with ID: 4
+2024-11-07 18:25:43 INFO  UniversiteService:33 - Adding a new university: Université A
+2024-11-07 18:25:43 INFO  UniversiteService:33 - Adding a new university: Université B
+2024-11-07 18:25:44 INFO  UniversiteService:33 - Adding a new university: Université Test
+2024-11-07 18:25:44 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-07 18:25:44 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-11-07 18:25:44 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2024-11-07 18:28:18 INFO  UniversiteService:39 - Updating university with ID: 1
+2024-11-07 18:28:18 INFO  UniversiteService:33 - Adding a new university: ESPRIT
+2024-11-07 18:28:18 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [tn.esprit.tpfoyer17.UniversiteServiceTest]: UniversiteServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-07 18:28:18 INFO  SpringBootTestContextBootstrapper:248 - Found @SpringBootConfiguration tn.esprit.tpfoyer17.TpFoyer17Application for test class tn.esprit.tpfoyer17.UniversiteServiceTest
+2024-11-07 18:28:20 INFO  UniversiteServiceTest:51 - Starting UniversiteServiceTest using Java 17.0.12 with PID 5812 (started by USER in C:\Users\USER\DEVOPS)
+2024-11-07 18:28:20 INFO  UniversiteServiceTest:640 - The following 1 profile is active: "test"
+2024-11-07 18:28:24 INFO  RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-07 18:28:24 INFO  RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 246 ms. Found 6 JPA repository interfaces.
+2024-11-07 18:28:25 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-07 18:28:26 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-11-07 18:28:26 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-11-07 18:28:26 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-07 18:28:26 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-07 18:28:26 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2024-11-07 18:28:28 INFO  HikariPool:565 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-07 18:28:28 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-11-07 18:28:29 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-07 18:28:31 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-07 18:28:32 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-07 18:28:33 INFO  QueryEnhancerFactory:47 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-07 18:28:35 WARN  JpaBaseConfiguration$JpaWebConfiguration:231 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-07 18:28:38 INFO  H2ConsoleAutoConfiguration:88 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-07 18:28:38 INFO  UniversiteServiceTest:57 - Started UniversiteServiceTest in 18.732 seconds (process running for 26.586)
+2024-11-07 18:28:38 INFO  UniversiteService:33 - Adding a new university: Université C
+2024-11-07 18:28:38 INFO  UniversiteService:39 - Updating university with ID: 1
+2024-11-07 18:28:39 INFO  UniversiteService:33 - Adding a new university: Université D
+2024-11-07 18:28:39 INFO  UniversiteService:33 - Adding a new university: Université E
+2024-11-07 18:28:39 INFO  UniversiteService:39 - Updating university with ID: 3
+2024-11-07 18:28:39 INFO  UniversiteService:33 - Adding a new university: Université Foyer Test
+2024-11-07 18:28:39 INFO  UniversiteService:39 - Updating university with ID: 4
+2024-11-07 18:28:39 INFO  UniversiteService:33 - Adding a new university: Université A
+2024-11-07 18:28:39 INFO  UniversiteService:33 - Adding a new university: Université B
+2024-11-07 18:28:39 INFO  UniversiteService:33 - Adding a new university: Université Test
+2024-11-07 18:28:39 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-07 18:28:39 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-11-07 18:28:39 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2024-11-07 19:13:11 INFO  UniversiteService:39 - Updating university with ID: 1
+2024-11-07 19:13:11 INFO  UniversiteService:33 - Adding a new university: ESPRIT
+2024-11-07 19:13:12 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [tn.esprit.tpfoyer17.UniversiteServiceTest]: UniversiteServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-07 19:13:13 INFO  SpringBootTestContextBootstrapper:248 - Found @SpringBootConfiguration tn.esprit.tpfoyer17.TpFoyer17Application for test class tn.esprit.tpfoyer17.UniversiteServiceTest
+2024-11-07 19:13:16 INFO  UniversiteServiceTest:51 - Starting UniversiteServiceTest using Java 17.0.12 with PID 3452 (started by USER in C:\Users\USER\DEVOPS)
+2024-11-07 19:13:16 INFO  UniversiteServiceTest:640 - The following 1 profile is active: "test"
+2024-11-07 19:13:21 INFO  RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-07 19:13:22 INFO  RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 649 ms. Found 6 JPA repository interfaces.
+2024-11-07 19:13:25 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-07 19:13:26 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-11-07 19:13:26 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-11-07 19:13:27 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-07 19:13:27 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-07 19:13:27 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2024-11-07 19:13:29 INFO  HikariPool:565 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-07 19:13:29 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-11-07 19:13:31 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-07 19:13:34 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-07 19:13:34 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-07 19:13:36 INFO  QueryEnhancerFactory:47 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-07 19:13:40 WARN  JpaBaseConfiguration$JpaWebConfiguration:231 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-07 19:13:44 INFO  H2ConsoleAutoConfiguration:88 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-07 19:13:44 INFO  UniversiteServiceTest:57 - Started UniversiteServiceTest in 30.151 seconds (process running for 51.007)
+2024-11-07 19:13:46 INFO  UniversiteService:33 - Adding a new university: Université C
+2024-11-07 19:13:46 INFO  UniversiteService:39 - Updating university with ID: 1
+2024-11-07 19:13:46 INFO  UniversiteService:33 - Adding a new university: Université D
+2024-11-07 19:13:46 INFO  UniversiteService:33 - Adding a new university: Université E
+2024-11-07 19:13:46 INFO  UniversiteService:39 - Updating university with ID: 3
+2024-11-07 19:13:46 INFO  UniversiteService:33 - Adding a new university: Université Foyer Test
+2024-11-07 19:13:47 INFO  UniversiteService:39 - Updating university with ID: 4
+2024-11-07 19:13:47 INFO  UniversiteService:33 - Adding a new university: Université A
+2024-11-07 19:13:47 INFO  UniversiteService:33 - Adding a new university: Université B
+2024-11-07 19:13:47 INFO  UniversiteService:33 - Adding a new university: Université Test
+2024-11-07 19:13:47 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-07 19:13:48 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-11-07 19:13:48 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2024-11-07 19:16:05 INFO  UniversiteService:39 - Updating university with ID: 1
+2024-11-07 19:16:06 INFO  UniversiteService:33 - Adding a new university: ESPRIT
+2024-11-07 19:16:06 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [tn.esprit.tpfoyer17.UniversiteServiceTest]: UniversiteServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-07 19:16:07 INFO  SpringBootTestContextBootstrapper:248 - Found @SpringBootConfiguration tn.esprit.tpfoyer17.TpFoyer17Application for test class tn.esprit.tpfoyer17.UniversiteServiceTest
+2024-11-07 19:16:09 INFO  UniversiteServiceTest:51 - Starting UniversiteServiceTest using Java 17.0.12 with PID 8892 (started by USER in C:\Users\USER\DEVOPS)
+2024-11-07 19:16:09 INFO  UniversiteServiceTest:640 - The following 1 profile is active: "test"
+2024-11-07 19:16:13 INFO  RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-07 19:16:14 INFO  RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 615 ms. Found 6 JPA repository interfaces.
+2024-11-07 19:16:17 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-07 19:16:17 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-11-07 19:16:17 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-11-07 19:16:18 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-07 19:16:18 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-07 19:16:18 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2024-11-07 19:16:19 INFO  HikariPool:565 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-07 19:16:19 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-11-07 19:16:20 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-07 19:16:22 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-07 19:16:23 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-07 19:16:24 INFO  QueryEnhancerFactory:47 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-07 19:16:26 WARN  JpaBaseConfiguration$JpaWebConfiguration:231 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-07 19:16:30 INFO  H2ConsoleAutoConfiguration:88 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-07 19:16:31 INFO  UniversiteServiceTest:57 - Started UniversiteServiceTest in 22.949 seconds (process running for 43.319)
+2024-11-07 19:16:31 INFO  UniversiteService:33 - Adding a new university: Université C
+2024-11-07 19:16:32 INFO  UniversiteService:39 - Updating university with ID: 1
+2024-11-07 19:16:32 INFO  UniversiteService:33 - Adding a new university: Université D
+2024-11-07 19:16:32 INFO  UniversiteService:33 - Adding a new university: Université E
+2024-11-07 19:16:32 INFO  UniversiteService:39 - Updating university with ID: 3
+2024-11-07 19:16:32 INFO  UniversiteService:33 - Adding a new university: Université Foyer Test
+2024-11-07 19:16:32 INFO  UniversiteService:39 - Updating university with ID: 4
+2024-11-07 19:16:32 INFO  UniversiteService:33 - Adding a new university: Université A
+2024-11-07 19:16:32 INFO  UniversiteService:33 - Adding a new university: Université B
+2024-11-07 19:16:32 INFO  UniversiteService:33 - Adding a new university: Université Test
+2024-11-07 19:16:32 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-07 19:16:33 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-11-07 19:16:33 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2024-11-07 19:18:47 INFO  UniversiteService:39 - Updating university with ID: 1
+2024-11-07 19:18:47 INFO  UniversiteService:33 - Adding a new university: ESPRIT
+2024-11-07 19:18:48 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [tn.esprit.tpfoyer17.UniversiteServiceTest]: UniversiteServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-07 19:18:48 INFO  SpringBootTestContextBootstrapper:248 - Found @SpringBootConfiguration tn.esprit.tpfoyer17.TpFoyer17Application for test class tn.esprit.tpfoyer17.UniversiteServiceTest
+2024-11-07 19:18:50 INFO  UniversiteServiceTest:51 - Starting UniversiteServiceTest using Java 17.0.12 with PID 2928 (started by USER in C:\Users\USER\DEVOPS)
+2024-11-07 19:18:50 INFO  UniversiteServiceTest:640 - The following 1 profile is active: "test"
+2024-11-07 19:18:53 INFO  RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-07 19:18:54 INFO  RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 214 ms. Found 6 JPA repository interfaces.
+2024-11-07 19:18:55 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-07 19:18:56 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-11-07 19:18:56 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-11-07 19:18:56 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-07 19:18:56 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-07 19:18:57 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2024-11-07 19:18:58 INFO  HikariPool:565 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-07 19:18:58 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-11-07 19:18:59 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-07 19:19:02 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-07 19:19:02 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-07 19:19:03 INFO  QueryEnhancerFactory:47 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-07 19:19:07 WARN  JpaBaseConfiguration$JpaWebConfiguration:231 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-07 19:19:10 INFO  H2ConsoleAutoConfiguration:88 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-07 19:19:10 INFO  UniversiteServiceTest:57 - Started UniversiteServiceTest in 21.187 seconds (process running for 34.104)
+2024-11-07 19:19:11 INFO  UniversiteService:33 - Adding a new university: Université C
+2024-11-07 19:19:11 INFO  UniversiteService:39 - Updating university with ID: 1
+2024-11-07 19:19:11 INFO  UniversiteService:33 - Adding a new university: Université D
+2024-11-07 19:19:11 INFO  UniversiteService:33 - Adding a new university: Université E
+2024-11-07 19:19:12 INFO  UniversiteService:39 - Updating university with ID: 3
+2024-11-07 19:19:12 INFO  UniversiteService:33 - Adding a new university: Université Foyer Test
+2024-11-07 19:19:12 INFO  UniversiteService:39 - Updating university with ID: 4
+2024-11-07 19:19:12 INFO  UniversiteService:33 - Adding a new university: Université A
+2024-11-07 19:19:12 INFO  UniversiteService:33 - Adding a new university: Université B
+2024-11-07 19:19:12 INFO  UniversiteService:33 - Adding a new university: Université Test
+2024-11-07 19:19:12 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-07 19:19:12 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-11-07 19:19:12 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2024-11-08 08:16:10 INFO  UniversiteService:39 - Updating university with ID: 1
+2024-11-08 08:16:10 INFO  UniversiteService:33 - Adding a new university: ESPRIT
+2024-11-08 08:16:10 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [tn.esprit.tpfoyer17.UniversiteServiceTest]: UniversiteServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 08:16:10 INFO  SpringBootTestContextBootstrapper:248 - Found @SpringBootConfiguration tn.esprit.tpfoyer17.TpFoyer17Application for test class tn.esprit.tpfoyer17.UniversiteServiceTest
+2024-11-08 08:16:11 INFO  UniversiteServiceTest:51 - Starting UniversiteServiceTest using Java 17.0.12 with PID 13340 (started by USER in C:\Users\USER\DEVOPS)
+2024-11-08 08:16:11 INFO  UniversiteServiceTest:640 - The following 1 profile is active: "test"
+2024-11-08 08:16:13 INFO  RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-08 08:16:13 INFO  RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 134 ms. Found 6 JPA repository interfaces.
+2024-11-08 08:16:14 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-08 08:16:14 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-11-08 08:16:14 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-11-08 08:16:14 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-08 08:16:14 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-08 08:16:14 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2024-11-08 08:16:15 INFO  HikariPool:565 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-08 08:16:15 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-11-08 08:16:16 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-08 08:16:17 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-08 08:16:17 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-08 08:16:18 INFO  QueryEnhancerFactory:47 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-08 08:16:19 WARN  JpaBaseConfiguration$JpaWebConfiguration:231 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-08 08:16:21 INFO  H2ConsoleAutoConfiguration:88 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-08 08:16:21 INFO  UniversiteServiceTest:57 - Started UniversiteServiceTest in 10.402 seconds (process running for 16.183)
+2024-11-08 08:16:21 INFO  UniversiteService:33 - Adding a new university: Université C
+2024-11-08 08:16:21 INFO  UniversiteService:39 - Updating university with ID: 1
+2024-11-08 08:16:22 INFO  UniversiteService:33 - Adding a new university: Université D
+2024-11-08 08:16:22 INFO  UniversiteService:33 - Adding a new university: Université E
+2024-11-08 08:16:22 INFO  UniversiteService:39 - Updating university with ID: 3
+2024-11-08 08:16:22 INFO  UniversiteService:33 - Adding a new university: Université Foyer Test
+2024-11-08 08:16:22 INFO  UniversiteService:39 - Updating university with ID: 4
+2024-11-08 08:16:22 INFO  UniversiteService:33 - Adding a new university: Université A
+2024-11-08 08:16:22 INFO  UniversiteService:33 - Adding a new university: Université B
+2024-11-08 08:16:22 INFO  UniversiteService:33 - Adding a new university: Université Test
+2024-11-08 08:16:22 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-08 08:16:22 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-11-08 08:16:22 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.

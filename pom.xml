@@ -113,6 +113,7 @@
                 </configuration>
             </plugin>
         </plugins>
+        <finalName> devops-integration </finalName>
     </build>
  <!-- Deploy to Nexus -->
     <distributionManagement>
