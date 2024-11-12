@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  app:
+    image: yasmiinecode/devops-integration  # Replace with your app's Docker Hub image name
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8082:8082"                           # Map the application port
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/tpFoyer17?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+      SPRING_DATASOURCE_USERNAME: root        # DB user
+      SPRING_DATASOURCE_PASSWORD: example     # DB password (change for production)
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update   # JPA config
+    depends_on:
+      - db
+
+  db:
+    image: mysql:8.0                          # Use MySQL 8.0 (or other compatible version)
+    environment:
+      MYSQL_ROOT_PASSWORD: example            # Set root password (replace for production)
+      MYSQL_DATABASE: tpFoyer17               # Initial database name
+    ports:
+      - "3306:3306"                           # Expose MySQL port
+    volumes:
+      - mysql_data:/var/lib/mysql             # Persist MySQL data
+
+volumes:
+  mysql_data:
