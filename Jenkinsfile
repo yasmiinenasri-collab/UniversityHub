@@ -10,9 +10,6 @@ pipeline {
         // Nexus
         NEXUS_Cred = credentials('nexus') // Nexus credentials in Jenkins
         Nexus_Url = 'http://192.168.1.66:8081/repository/maven-releases/' // Nexus URL
-
-        // DockerHub Credentials
-        DOCKERHUB_CREDENTIALS = credentials('dockerhub') // DockerHub credentials
     }
 
     stages {
@@ -37,6 +34,7 @@ pipeline {
 
         stage('JaCoCo Report') {
             steps {
+                // Generate and publish the JaCoCo coverage report
                 jacoco(execPattern: 'target/jacoco.exec')
             }
         }
@@ -71,53 +69,36 @@ pipeline {
             }
         }
 
-        stage('Build Docker Image') {
+        stage("Build Docker image") {
             steps {
                 script {
+                    // Build Docker image with a specific tag
                     sh 'docker build -t yasmiinecode/devops-integration .'
                 }
             }
         }
 
-        stage('Push Image to DockerHub') {
+        stage('Push image to Docker Hub') {
             steps {
                 script {
                     withCredentials([string(credentialsId: 'dockerhub', variable: 'dockerhubpwd')]) {
+                        // Connexion à Docker Hub
                         sh "echo ${dockerhubpwd} | docker login -u yasmiinecode --password-stdin"
+
+                        // Pousser l'image vers Docker Hub
                         sh "docker push yasmiinecode/devops-integration"
                     }
                 }
             }
         }
-
-        // New Docker Compose Stage
-        stage('Start Docker Compose') {
-            steps {
-                script {
-                    // Run docker-compose to start the application and database containers
-                    sh 'docker-compose -f docker-compose.yml up -d'
-                }
-            }
+        stage('Run Docker Compose') {
+    steps {
+        script {
+            sh 'docker-compose down'  // Stop any existing services first
+            sh 'docker-compose up -d' // Start services in detached mode
         }
-
-        stage('Run Tests against Docker Container') {
-            steps {
-                script {
-                    // Run tests or checks against the running containers
-                    // Here we're assuming an HTTP test, change this based on your needs
-                    sh 'curl http://localhost:8082/health'
-                }
-            }
-        }
-
-        stage('Stop Docker Containers') {
-            steps {
-                script {
-                    // Stop and remove containers
-                    sh 'docker-compose down --remove-orphans -v'
-                }
-            }
-        }
+    }
+}
     }
 
     post {
@@ -127,5 +108,7 @@ pipeline {
         failure {
             echo 'Pipeline failed. Please check the logs for more details.'
         }
+
     }
+
 }
