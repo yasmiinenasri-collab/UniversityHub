@@ -2434,3 +2434,701 @@ Caused by: java.lang.IllegalStateException: Cannot load driver class: org.h2.Dri
 2024-11-15 06:27:29 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-11-15 06:27:29 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
 2024-11-15 06:27:29 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2024-11-15 06:36:05 INFO  UniversiteService:39 - Updating university with ID: 1
+2024-11-15 06:36:05 INFO  UniversiteService:33 - Adding a new university: ESPRIT
+2024-11-15 06:36:06 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [tn.esprit.tpfoyer17.UniversiteServiceTest]: UniversiteServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-15 06:36:07 INFO  SpringBootTestContextBootstrapper:248 - Found @SpringBootConfiguration tn.esprit.tpfoyer17.TpFoyer17Application for test class tn.esprit.tpfoyer17.UniversiteServiceTest
+2024-11-15 06:36:11 INFO  UniversiteServiceTest:51 - Starting UniversiteServiceTest using Java 17.0.12 with PID 17564 (started by USER in C:\Users\USER\DEVOPS)
+2024-11-15 06:36:11 INFO  UniversiteServiceTest:640 - The following 1 profile is active: "test"
+2024-11-15 06:36:17 INFO  RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-15 06:36:17 INFO  RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 337 ms. Found 6 JPA repository interfaces.
+2024-11-15 06:36:20 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-15 06:36:20 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-11-15 06:36:20 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-11-15 06:36:21 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-15 06:36:21 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-15 06:36:21 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2024-11-15 06:36:22 INFO  HikariPool:565 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-15 06:36:22 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-11-15 06:36:23 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-15 06:36:25 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-15 06:36:25 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-15 06:36:26 INFO  QueryEnhancerFactory:47 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-15 06:36:28 WARN  JpaBaseConfiguration$JpaWebConfiguration:231 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-15 06:36:31 INFO  EndpointLinksResolver:58 - Exposing 13 endpoint(s) beneath base path '/actuator'
+2024-11-15 06:36:31 INFO  UniversiteServiceTest:57 - Started UniversiteServiceTest in 23.677 seconds (process running for 33.624)
+2024-11-15 06:36:32 INFO  UniversiteService:33 - Adding a new university: Université C
+2024-11-15 06:36:32 INFO  UniversiteService:39 - Updating university with ID: 1
+2024-11-15 06:36:32 INFO  UniversiteService:33 - Adding a new university: Université D
+2024-11-15 06:36:32 INFO  UniversiteService:33 - Adding a new university: Université E
+2024-11-15 06:36:32 INFO  UniversiteService:39 - Updating university with ID: 3
+2024-11-15 06:36:32 INFO  UniversiteService:33 - Adding a new university: Université Foyer Test
+2024-11-15 06:36:32 INFO  UniversiteService:39 - Updating university with ID: 4
+2024-11-15 06:36:32 INFO  UniversiteService:33 - Adding a new university: Université A
+2024-11-15 06:36:32 INFO  UniversiteService:33 - Adding a new university: Université B
+2024-11-15 06:36:32 INFO  UniversiteService:33 - Adding a new university: Université Test
+2024-11-15 06:36:32 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-15 06:36:33 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-11-15 06:36:33 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2024-11-15 07:22:02 INFO  TpFoyer17Application:51 - Starting TpFoyer17Application using Java 17.0.12 with PID 20104 (C:\Users\USER\DEVOPS\target\classes started by USER in C:\Users\USER\DEVOPS)
+2024-11-15 07:22:02 INFO  TpFoyer17Application:634 - No active profile set, falling back to 1 default profile: "default"
+2024-11-15 07:22:03 INFO  DevToolsPropertyDefaultsPostProcessor:250 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-15 07:22:03 INFO  DevToolsPropertyDefaultsPostProcessor:250 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-15 07:22:07 INFO  RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-15 07:22:08 INFO  RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 685 ms. Found 6 JPA repository interfaces.
+2024-11-15 07:22:11 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8082 (http)
+2024-11-15 07:22:11 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2024-11-15 07:22:11 INFO  StandardService:173 - Starting service [Tomcat]
+2024-11-15 07:22:11 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2024-11-15 07:22:11 INFO  [/tpFoyer17]:173 - Initializing Spring embedded WebApplicationContext
+2024-11-15 07:22:11 INFO  ServletWebServerApplicationContext:291 - Root WebApplicationContext: initialization completed in 8441 ms
+2024-11-15 07:22:12 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-15 07:22:12 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-11-15 07:22:12 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-11-15 07:22:12 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-15 07:22:13 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-15 07:22:13 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2024-11-15 07:22:13 INFO  HikariPool:565 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6eb74b2a
+2024-11-15 07:22:13 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-11-15 07:22:13 WARN  Dialect:351 - HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2024-11-15 07:22:14 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-15 07:22:16 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-15 07:22:16 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-15 07:22:17 INFO  QueryEnhancerFactory:47 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-15 07:22:19 WARN  JpaBaseConfiguration$JpaWebConfiguration:231 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-15 07:22:21 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-11-15 07:22:21 INFO  EndpointLinksResolver:58 - Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-11-15 07:22:21 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8082"]
+2024-11-15 07:22:21 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8082 (http) with context path '/tpFoyer17'
+2024-11-15 07:22:21 INFO  TpFoyer17Application:57 - Started TpFoyer17Application in 19.733 seconds (process running for 25.163)
+2024-11-15 07:22:22 INFO  [/tpFoyer17]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-15 07:22:22 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-11-15 07:22:22 INFO  DispatcherServlet:554 - Completed initialization in 1 ms
+2024-11-15 09:03:35 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211 - Restarting due to 42 class path changes (0 additions, 42 deletions, 0 modifications)
+2024-11-15 09:03:37 INFO  Http11NioProtocol:173 - Pausing ProtocolHandler ["http-nio-8082"]
+2024-11-15 09:03:37 INFO  StandardService:173 - Stopping service [Tomcat]
+2024-11-15 09:03:37 INFO  [/tpFoyer17]:173 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-11-15 09:03:38 INFO  Http11NioProtocol:173 - Stopping ProtocolHandler ["http-nio-8082"]
+2024-11-15 09:03:38 INFO  Http11NioProtocol:173 - Destroying ProtocolHandler ["http-nio-8082"]
+2024-11-15 09:03:39 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-15 09:03:40 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-11-15 09:03:40 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2024-11-15 09:03:42 INFO  TpFoyer17Application:51 - Starting TpFoyer17Application using Java 17.0.12 with PID 20104 (C:\Users\USER\DEVOPS\target\classes started by USER in C:\Users\USER\DEVOPS)
+2024-11-15 09:03:42 INFO  TpFoyer17Application:634 - No active profile set, falling back to 1 default profile: "default"
+2024-11-15 09:03:46 INFO  RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-15 09:03:46 INFO  RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2024-11-15 09:03:47 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8082 (http)
+2024-11-15 09:03:47 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2024-11-15 09:03:47 INFO  StandardService:173 - Starting service [Tomcat]
+2024-11-15 09:03:47 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2024-11-15 09:03:47 INFO  [/tpFoyer17]:173 - Initializing Spring embedded WebApplicationContext
+2024-11-15 09:03:47 INFO  ServletWebServerApplicationContext:291 - Root WebApplicationContext: initialization completed in 5037 ms
+2024-11-15 09:03:48 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-15 09:03:48 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-15 09:03:48 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-15 09:03:48 INFO  HikariDataSource:110 - HikariPool-2 - Starting...
+2024-11-15 09:03:49 INFO  HikariPool:565 - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d1e8e04
+2024-11-15 09:03:49 INFO  HikariDataSource:123 - HikariPool-2 - Start completed.
+2024-11-15 09:03:49 WARN  Dialect:351 - HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2024-11-15 09:03:49 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-15 09:03:49 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-15 09:03:49 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-15 09:03:49 WARN  JpaBaseConfiguration$JpaWebConfiguration:231 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-15 09:03:57 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-11-15 09:03:57 INFO  EndpointLinksResolver:58 - Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-11-15 09:03:57 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8082"]
+2024-11-15 09:03:57 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8082 (http) with context path '/tpFoyer17'
+2024-11-15 09:03:57 INFO  TpFoyer17Application:57 - Started TpFoyer17Application in 15.371 seconds (process running for 6121.405)
+2024-11-15 09:03:57 INFO  ConditionEvaluationDeltaLoggingListener:58 - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   MultipleOpenApiSupportConfiguration:
+      Did not match:
+         - AnyNestedCondition 0 matched 2 did not; NestedCondition on MultipleOpenApiSupportCondition.OnActuatorDifferentPort found non-matching nested conditions Management Port actual port type (SAME) did not match required type (DIFFERENT), @ConditionalOnProperty (springdoc.show-actuator) did not find property 'springdoc.show-actuator'; NestedCondition on MultipleOpenApiSupportCondition.OnMultipleOpenApiSupportCondition AnyNestedCondition 0 matched 2 did not; NestedCondition on MultipleOpenApiGroupsCondition.OnGroupConfigProperty @ConditionalOnProperty (springdoc.group-configs[0].group) did not find property 'springdoc.group-configs[0].group'; NestedCondition on MultipleOpenApiGroupsCondition.OnGroupedOpenApiBean @ConditionalOnBean (types: org.springdoc.core.models.GroupedOpenApi; SearchStrategy: all) did not find any beans of type org.springdoc.core.models.GroupedOpenApi (MultipleOpenApiSupportCondition)
+      Matched:
+         - found 'session' scope (OnWebApplicationCondition)
+         - @ConditionalOnProperty (springdoc.api-docs.enabled) matched (OnPropertyCondition)
+
+   SpringDocConfiguration#springdocBeanFactoryPostProcessor:
+      Did not match:
+         - AnyNestedCondition 0 matched 2 did not; NestedCondition on CacheOrGroupedOpenApiCondition.OnCacheDisabled found non-matching nested conditions @ConditionalOnProperty (springdoc.cache.disabled) did not find property 'springdoc.cache.disabled'; NestedCondition on CacheOrGroupedOpenApiCondition.OnMultipleOpenApiSupportCondition AnyNestedCondition 0 matched 2 did not; NestedCondition on MultipleOpenApiSupportCondition.OnActuatorDifferentPort found non-matching nested conditions Management Port actual port type (SAME) did not match required type (DIFFERENT), @ConditionalOnProperty (springdoc.show-actuator) did not find property 'springdoc.show-actuator'; NestedCondition on MultipleOpenApiSupportCondition.OnMultipleOpenApiSupportCondition AnyNestedCondition 0 matched 2 did not; NestedCondition on MultipleOpenApiGroupsCondition.OnGroupConfigProperty @ConditionalOnProperty (springdoc.group-configs[0].group) did not find property 'springdoc.group-configs[0].group'; NestedCondition on MultipleOpenApiGroupsCondition.OnGroupedOpenApiBean @ConditionalOnBean (types: org.springdoc.core.models.GroupedOpenApi; SearchStrategy: all) did not find any beans of type org.springdoc.core.models.GroupedOpenApi (CacheOrGroupedOpenApiCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.boot.context.properties.bind.BindResult' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2024-11-15 09:03:59 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211 - Restarting due to 42 class path changes (42 additions, 0 deletions, 0 modifications)
+2024-11-15 09:03:59 INFO  Http11NioProtocol:173 - Pausing ProtocolHandler ["http-nio-8082"]
+2024-11-15 09:03:59 INFO  StandardService:173 - Stopping service [Tomcat]
+2024-11-15 09:03:59 INFO  Http11NioProtocol:173 - Stopping ProtocolHandler ["http-nio-8082"]
+2024-11-15 09:03:59 INFO  Http11NioProtocol:173 - Destroying ProtocolHandler ["http-nio-8082"]
+2024-11-15 09:03:59 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-15 09:03:59 INFO  HikariDataSource:350 - HikariPool-2 - Shutdown initiated...
+2024-11-15 09:03:59 INFO  HikariDataSource:352 - HikariPool-2 - Shutdown completed.
+2024-11-15 09:03:59 INFO  TpFoyer17Application:51 - Starting TpFoyer17Application using Java 17.0.12 with PID 20104 (C:\Users\USER\DEVOPS\target\classes started by USER in C:\Users\USER\DEVOPS)
+2024-11-15 09:03:59 INFO  TpFoyer17Application:634 - No active profile set, falling back to 1 default profile: "default"
+2024-11-15 09:04:01 INFO  RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-15 09:04:01 INFO  RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 102 ms. Found 6 JPA repository interfaces.
+2024-11-15 09:04:02 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8082 (http)
+2024-11-15 09:04:02 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2024-11-15 09:04:02 INFO  StandardService:173 - Starting service [Tomcat]
+2024-11-15 09:04:02 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2024-11-15 09:04:02 INFO  [/tpFoyer17]:173 - Initializing Spring embedded WebApplicationContext
+2024-11-15 09:04:02 INFO  ServletWebServerApplicationContext:291 - Root WebApplicationContext: initialization completed in 2709 ms
+2024-11-15 09:04:02 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-15 09:04:02 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-15 09:04:02 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-15 09:04:02 INFO  HikariDataSource:110 - HikariPool-3 - Starting...
+2024-11-15 09:04:02 INFO  HikariPool:565 - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70716ff5
+2024-11-15 09:04:02 INFO  HikariDataSource:123 - HikariPool-3 - Start completed.
+2024-11-15 09:04:02 WARN  Dialect:351 - HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2024-11-15 09:04:02 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-15 09:04:03 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-15 09:04:04 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-15 09:04:05 WARN  JpaBaseConfiguration$JpaWebConfiguration:231 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-15 09:04:08 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-11-15 09:04:08 INFO  EndpointLinksResolver:58 - Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-11-15 09:04:08 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8082"]
+2024-11-15 09:04:08 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8082 (http) with context path '/tpFoyer17'
+2024-11-15 09:04:08 INFO  TpFoyer17Application:57 - Started TpFoyer17Application in 9.009 seconds (process running for 6132.049)
+2024-11-15 09:04:08 INFO  ConditionEvaluationDeltaLoggingListener:58 - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   MultipleOpenApiSupportConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnProperty (springdoc.api-docs.enabled) matched (OnPropertyCondition)
+      - AnyNestedCondition 1 matched 1 did not; NestedCondition on MultipleOpenApiSupportCondition.OnActuatorDifferentPort found non-matching nested conditions Management Port actual port type (SAME) did not match required type (DIFFERENT), @ConditionalOnProperty (springdoc.show-actuator) did not find property 'springdoc.show-actuator'; NestedCondition on MultipleOpenApiSupportCondition.OnMultipleOpenApiSupportCondition AnyNestedCondition 1 matched 1 did not; NestedCondition on MultipleOpenApiGroupsCondition.OnGroupConfigProperty @ConditionalOnProperty (springdoc.group-configs[0].group) did not find property 'springdoc.group-configs[0].group'; NestedCondition on MultipleOpenApiGroupsCondition.OnGroupedOpenApiBean @ConditionalOnBean (types: org.springdoc.core.models.GroupedOpenApi; SearchStrategy: all) found beans 'reservationApi', 'blocApi', 'foyerApi', 'etudiantApi', 'chambreApi', 'universiteApi' (MultipleOpenApiSupportCondition)
+
+   MultipleOpenApiSupportConfiguration#multipleOpenApiResource matched:
+      - @ConditionalOnProperty (springdoc.use-management-port=false) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springdoc.webmvc.api.MultipleOpenApiWebMvcResource; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SpringDocConfiguration#springdocBeanFactoryPostProcessor matched:
+      - @ConditionalOnClass found required class 'org.springframework.boot.context.properties.bind.BindResult' (OnClassCondition)
+      - AnyNestedCondition 1 matched 1 did not; NestedCondition on CacheOrGroupedOpenApiCondition.OnCacheDisabled found non-matching nested conditions @ConditionalOnProperty (springdoc.cache.disabled) did not find property 'springdoc.cache.disabled', @ConditionalOnMissingBean (types: org.springdoc.core.models.GroupedOpenApi; SearchStrategy: all) found beans of type 'org.springdoc.core.models.GroupedOpenApi' chambreApi, blocApi, reservationApi, foyerApi, universiteApi, etudiantApi; NestedCondition on CacheOrGroupedOpenApiCondition.OnMultipleOpenApiSupportCondition AnyNestedCondition 1 matched 1 did not; NestedCondition on MultipleOpenApiSupportCondition.OnActuatorDifferentPort found non-matching nested conditions Management Port actual port type (SAME) did not match required type (DIFFERENT), @ConditionalOnProperty (springdoc.show-actuator) did not find property 'springdoc.show-actuator'; NestedCondition on MultipleOpenApiSupportCondition.OnMultipleOpenApiSupportCondition AnyNestedCondition 1 matched 1 did not; NestedCondition on MultipleOpenApiGroupsCondition.OnGroupConfigProperty @ConditionalOnProperty (springdoc.group-configs[0].group) did not find property 'springdoc.group-configs[0].group'; NestedCondition on MultipleOpenApiGroupsCondition.OnGroupedOpenApiBean @ConditionalOnBean (types: org.springdoc.core.models.GroupedOpenApi; SearchStrategy: all) found beans 'reservationApi', 'blocApi', 'foyerApi', 'etudiantApi', 'chambreApi', 'universiteApi' (CacheOrGroupedOpenApiCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2024-11-15 09:04:26 INFO  UniversiteService:39 - Updating university with ID: 0
+2024-11-15 09:04:26 INFO  UniversiteService:33 - Adding a new university: null
+2024-11-15 09:04:26 INFO  UniversiteService:39 - Updating university with ID: 1
+2024-11-15 09:04:27 INFO  UniversiteService:33 - Adding a new university: ESPRIT
+2024-11-15 09:04:29 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [tn.esprit.tpfoyer17.UniversiteServiceTest]: UniversiteServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-15 09:04:30 INFO  SpringBootTestContextBootstrapper:248 - Found @SpringBootConfiguration tn.esprit.tpfoyer17.TpFoyer17Application for test class tn.esprit.tpfoyer17.UniversiteServiceTest
+2024-11-15 09:04:32 INFO  UniversiteServiceTest:51 - Starting UniversiteServiceTest using Java 17.0.12 with PID 7428 (started by USER in C:\Users\USER\DEVOPS)
+2024-11-15 09:04:32 INFO  UniversiteServiceTest:640 - The following 1 profile is active: "test"
+2024-11-15 09:04:47 INFO  RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-15 09:04:47 INFO  RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 502 ms. Found 6 JPA repository interfaces.
+2024-11-15 09:04:50 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-15 09:04:51 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-11-15 09:04:51 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-11-15 09:04:52 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-15 09:04:52 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-15 09:04:52 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2024-11-15 09:04:55 INFO  HikariPool:565 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-15 09:04:55 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-11-15 09:04:55 INFO  UniversiteService:39 - Updating university with ID: 0
+2024-11-15 09:04:55 INFO  UniversiteService:33 - Adding a new university: null
+2024-11-15 09:05:00 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-15 09:05:05 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-15 09:05:05 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-15 09:05:08 INFO  QueryEnhancerFactory:47 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-15 09:05:14 WARN  JpaBaseConfiguration$JpaWebConfiguration:231 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-15 09:05:27 INFO  EndpointLinksResolver:58 - Exposing 13 endpoint(s) beneath base path '/actuator'
+2024-11-15 09:05:28 INFO  UniversiteServiceTest:57 - Started UniversiteServiceTest in 57.283 seconds (process running for 80.854)
+2024-11-15 09:05:30 INFO  UniversiteService:33 - Adding a new university: Université C
+2024-11-15 09:05:30 INFO  UniversiteService:39 - Updating university with ID: 1
+2024-11-15 09:05:31 INFO  UniversiteService:33 - Adding a new university: Université D
+2024-11-15 09:05:31 INFO  UniversiteService:33 - Adding a new university: Université E
+2024-11-15 09:05:31 INFO  UniversiteService:39 - Updating university with ID: 3
+2024-11-15 09:05:32 INFO  UniversiteService:33 - Adding a new university: Université Foyer Test
+2024-11-15 09:05:32 INFO  UniversiteService:39 - Updating university with ID: 4
+2024-11-15 09:05:32 INFO  UniversiteService:33 - Adding a new university: Université A
+2024-11-15 09:05:32 INFO  UniversiteService:33 - Adding a new university: Université B
+2024-11-15 09:05:32 INFO  UniversiteService:33 - Adding a new university: Université Test
+2024-11-15 09:05:34 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-15 09:05:35 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-11-15 09:05:35 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2024-11-15 10:12:36 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211 - Restarting due to 41 class path changes (0 additions, 40 deletions, 1 modification)
+2024-11-15 10:12:38 INFO  Http11NioProtocol:173 - Pausing ProtocolHandler ["http-nio-8082"]
+2024-11-15 10:12:38 INFO  StandardService:173 - Stopping service [Tomcat]
+2024-11-15 10:12:38 INFO  Http11NioProtocol:173 - Stopping ProtocolHandler ["http-nio-8082"]
+2024-11-15 10:12:38 INFO  Http11NioProtocol:173 - Destroying ProtocolHandler ["http-nio-8082"]
+2024-11-15 10:12:38 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-15 10:12:38 INFO  HikariDataSource:350 - HikariPool-3 - Shutdown initiated...
+2024-11-15 10:12:38 INFO  HikariDataSource:352 - HikariPool-3 - Shutdown completed.
+2024-11-15 10:12:41 INFO  TpFoyer17Application:51 - Starting TpFoyer17Application using Java 17.0.12 with PID 20104 (C:\Users\USER\DEVOPS\target\classes started by USER in C:\Users\USER\DEVOPS)
+2024-11-15 10:12:41 INFO  TpFoyer17Application:634 - No active profile set, falling back to 1 default profile: "default"
+2024-11-15 10:12:43 INFO  RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-15 10:12:43 INFO  RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2024-11-15 10:12:43 ERROR SpringApplication:824 - Application run failed
+java.lang.NullPointerException: Cannot read field "generatedClass" because "data" is null
+	at org.springframework.cglib.proxy.Enhancer.nextInstance(Enhancer.java:783) ~[spring-core-6.0.11.jar:6.0.11]
+	at org.springframework.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:321) ~[spring-core-6.0.11.jar:6.0.11]
+	at org.springframework.cglib.proxy.Enhancer.createHelper(Enhancer.java:562) ~[spring-core-6.0.11.jar:6.0.11]
+	at org.springframework.cglib.proxy.Enhancer.createClass(Enhancer.java:407) ~[spring-core-6.0.11.jar:6.0.11]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer.createClass(ConfigurationClassEnhancer.java:138) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer.enhance(ConfigurationClassEnhancer.java:109) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.enhanceConfigurationClasses(ConfigurationClassPostProcessor.java:531) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanFactory(ConfigurationClassPostProcessor.java:308) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:358) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:150) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:771) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:589) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.3.jar:3.1.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) [spring-boot-3.1.3.jar:3.1.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) [spring-boot-3.1.3.jar:3.1.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) [spring-boot-3.1.3.jar:3.1.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) [spring-boot-3.1.3.jar:3.1.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) [spring-boot-3.1.3.jar:3.1.3]
+	at tn.esprit.tpfoyer17.TpFoyer17Application.main(TpFoyer17Application.java:12) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.1.3.jar:3.1.3]
+2024-11-15 10:12:46 INFO  DevToolsPropertyDefaultsPostProcessor:250 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-15 10:12:46 INFO  DevToolsPropertyDefaultsPostProcessor:250 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-15 10:12:46 INFO  TpFoyer17Application:51 - Starting TpFoyer17Application using Java 17.0.12 with PID 20104 (C:\Users\USER\DEVOPS\target\classes started by USER in C:\Users\USER\DEVOPS)
+2024-11-15 10:12:46 INFO  TpFoyer17Application:634 - No active profile set, falling back to 1 default profile: "default"
+2024-11-15 10:12:48 INFO  RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-15 10:12:48 INFO  RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 72 ms. Found 6 JPA repository interfaces.
+2024-11-15 10:12:48 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8082 (http)
+2024-11-15 10:12:48 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2024-11-15 10:12:48 INFO  StandardService:173 - Starting service [Tomcat]
+2024-11-15 10:12:48 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2024-11-15 10:12:49 INFO  [/tpFoyer17]:173 - Initializing Spring embedded WebApplicationContext
+2024-11-15 10:12:49 INFO  ServletWebServerApplicationContext:291 - Root WebApplicationContext: initialization completed in 2784 ms
+2024-11-15 10:12:49 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-15 10:12:49 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-15 10:12:49 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-15 10:12:49 INFO  HikariDataSource:110 - HikariPool-4 - Starting...
+2024-11-15 10:12:49 INFO  HikariPool:565 - HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23687542
+2024-11-15 10:12:49 INFO  HikariDataSource:123 - HikariPool-4 - Start completed.
+2024-11-15 10:12:49 WARN  Dialect:351 - HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2024-11-15 10:12:49 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-15 10:12:49 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-15 10:12:50 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-15 10:12:51 WARN  JpaBaseConfiguration$JpaWebConfiguration:231 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-15 10:12:53 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-11-15 10:12:53 INFO  EndpointLinksResolver:58 - Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-11-15 10:12:53 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8082"]
+2024-11-15 10:12:53 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8082 (http) with context path '/tpFoyer17'
+2024-11-15 10:12:53 INFO  TpFoyer17Application:57 - Started TpFoyer17Application in 7.692 seconds (process running for 10257.554)
+2024-11-15 10:12:53 INFO  ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+2024-11-15 10:13:11 INFO  UniversiteService:39 - Updating university with ID: 1
+2024-11-15 10:13:12 INFO  UniversiteService:33 - Adding a new university: ESPRIT
+2024-11-15 10:13:14 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [tn.esprit.tpfoyer17.UniversiteServiceTest]: UniversiteServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-15 10:13:15 INFO  SpringBootTestContextBootstrapper:248 - Found @SpringBootConfiguration tn.esprit.tpfoyer17.TpFoyer17Application for test class tn.esprit.tpfoyer17.UniversiteServiceTest
+2024-11-15 10:13:19 INFO  UniversiteServiceTest:51 - Starting UniversiteServiceTest using Java 17.0.12 with PID 16316 (started by USER in C:\Users\USER\DEVOPS)
+2024-11-15 10:13:19 INFO  UniversiteServiceTest:640 - The following 1 profile is active: "test"
+2024-11-15 10:13:33 INFO  RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-15 10:13:37 INFO  RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 3086 ms. Found 6 JPA repository interfaces.
+2024-11-15 10:13:44 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-15 10:13:45 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-11-15 10:13:45 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-11-15 10:13:46 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-15 10:13:46 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-15 10:13:46 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2024-11-15 10:13:48 INFO  HikariPool:565 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-15 10:13:48 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-11-15 10:13:51 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-15 10:17:02 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211 - Restarting due to 42 class path changes (0 additions, 42 deletions, 0 modifications)
+2024-11-15 10:17:03 INFO  Http11NioProtocol:173 - Pausing ProtocolHandler ["http-nio-8082"]
+2024-11-15 10:17:03 INFO  StandardService:173 - Stopping service [Tomcat]
+2024-11-15 10:17:04 INFO  Http11NioProtocol:173 - Stopping ProtocolHandler ["http-nio-8082"]
+2024-11-15 10:17:04 INFO  Http11NioProtocol:173 - Destroying ProtocolHandler ["http-nio-8082"]
+2024-11-15 10:17:04 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-15 10:17:04 INFO  HikariDataSource:350 - HikariPool-4 - Shutdown initiated...
+2024-11-15 10:17:04 INFO  HikariDataSource:352 - HikariPool-4 - Shutdown completed.
+2024-11-15 10:17:07 INFO  TpFoyer17Application:51 - Starting TpFoyer17Application using Java 17.0.12 with PID 20104 (C:\Users\USER\DEVOPS\target\classes started by USER in C:\Users\USER\DEVOPS)
+2024-11-15 10:17:07 INFO  TpFoyer17Application:634 - No active profile set, falling back to 1 default profile: "default"
+2024-11-15 10:17:14 INFO  RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-15 10:17:14 INFO  RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2024-11-15 10:17:14 ERROR SpringApplication:824 - Application run failed
+java.lang.NullPointerException: Cannot read field "generatedClass" because "data" is null
+	at org.springframework.cglib.proxy.Enhancer.nextInstance(Enhancer.java:783) ~[spring-core-6.0.11.jar:6.0.11]
+	at org.springframework.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:321) ~[spring-core-6.0.11.jar:6.0.11]
+	at org.springframework.cglib.proxy.Enhancer.createHelper(Enhancer.java:562) ~[spring-core-6.0.11.jar:6.0.11]
+	at org.springframework.cglib.proxy.Enhancer.createClass(Enhancer.java:407) ~[spring-core-6.0.11.jar:6.0.11]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer.createClass(ConfigurationClassEnhancer.java:138) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer.enhance(ConfigurationClassEnhancer.java:109) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.enhanceConfigurationClasses(ConfigurationClassPostProcessor.java:531) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanFactory(ConfigurationClassPostProcessor.java:308) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:358) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:150) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:771) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:589) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.3.jar:3.1.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) [spring-boot-3.1.3.jar:3.1.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) [spring-boot-3.1.3.jar:3.1.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) [spring-boot-3.1.3.jar:3.1.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) [spring-boot-3.1.3.jar:3.1.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) [spring-boot-3.1.3.jar:3.1.3]
+	at tn.esprit.tpfoyer17.TpFoyer17Application.main(TpFoyer17Application.java:12) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.1.3.jar:3.1.3]
+2024-11-15 10:17:23 INFO  DevToolsPropertyDefaultsPostProcessor:250 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-15 10:17:23 INFO  DevToolsPropertyDefaultsPostProcessor:250 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-15 10:17:23 INFO  TpFoyer17Application:51 - Starting TpFoyer17Application using Java 17.0.12 with PID 20104 (C:\Users\USER\DEVOPS\target\classes started by USER in C:\Users\USER\DEVOPS)
+2024-11-15 10:17:23 INFO  TpFoyer17Application:634 - No active profile set, falling back to 1 default profile: "default"
+2024-11-15 10:17:26 INFO  RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-15 10:17:26 INFO  RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 143 ms. Found 6 JPA repository interfaces.
+2024-11-15 10:17:26 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8082 (http)
+2024-11-15 10:17:26 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2024-11-15 10:17:26 INFO  StandardService:173 - Starting service [Tomcat]
+2024-11-15 10:17:26 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2024-11-15 10:17:26 INFO  [/tpFoyer17]:173 - Initializing Spring embedded WebApplicationContext
+2024-11-15 10:17:26 INFO  ServletWebServerApplicationContext:291 - Root WebApplicationContext: initialization completed in 3461 ms
+2024-11-15 10:17:27 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-15 10:17:27 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-15 10:17:27 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-15 10:17:27 INFO  HikariDataSource:110 - HikariPool-5 - Starting...
+2024-11-15 10:17:27 INFO  HikariPool:565 - HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@658c41ff
+2024-11-15 10:17:27 INFO  HikariDataSource:123 - HikariPool-5 - Start completed.
+2024-11-15 10:17:27 WARN  Dialect:351 - HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2024-11-15 10:17:27 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-15 10:17:28 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-15 10:17:28 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-15 10:17:29 WARN  JpaBaseConfiguration$JpaWebConfiguration:231 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-15 10:17:31 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-11-15 10:17:31 INFO  EndpointLinksResolver:58 - Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-11-15 10:17:32 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8082"]
+2024-11-15 10:17:32 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8082 (http) with context path '/tpFoyer17'
+2024-11-15 10:17:32 INFO  TpFoyer17Application:57 - Started TpFoyer17Application in 8.757 seconds (process running for 10535.788)
+2024-11-15 10:17:32 INFO  ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+2024-11-15 10:17:49 INFO  UniversiteService:39 - Updating university with ID: 1
+2024-11-15 10:17:50 INFO  UniversiteService:33 - Adding a new university: ESPRIT
+2024-11-15 10:17:53 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [tn.esprit.tpfoyer17.UniversiteServiceTest]: UniversiteServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-15 10:17:54 INFO  SpringBootTestContextBootstrapper:248 - Found @SpringBootConfiguration tn.esprit.tpfoyer17.TpFoyer17Application for test class tn.esprit.tpfoyer17.UniversiteServiceTest
+2024-11-15 10:17:58 INFO  UniversiteServiceTest:51 - Starting UniversiteServiceTest using Java 17.0.12 with PID 14632 (started by USER in C:\Users\USER\DEVOPS)
+2024-11-15 10:17:58 INFO  UniversiteServiceTest:640 - The following 1 profile is active: "test"
+2024-11-15 10:18:02 INFO  RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-15 10:18:03 INFO  RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 257 ms. Found 6 JPA repository interfaces.
+2024-11-15 10:18:05 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-15 10:18:05 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-11-15 10:18:05 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-11-15 10:18:06 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-15 10:18:06 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-15 10:18:06 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2024-11-15 10:18:08 INFO  HikariPool:565 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-15 10:18:08 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-11-15 10:18:09 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-15 10:18:11 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-15 10:18:11 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-15 10:18:13 INFO  QueryEnhancerFactory:47 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-15 10:18:15 WARN  JpaBaseConfiguration$JpaWebConfiguration:231 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-15 10:18:20 INFO  EndpointLinksResolver:58 - Exposing 13 endpoint(s) beneath base path '/actuator'
+2024-11-15 10:18:21 INFO  UniversiteServiceTest:57 - Started UniversiteServiceTest in 25.264 seconds (process running for 49.534)
+2024-11-15 10:18:21 INFO  UniversiteService:33 - Adding a new university: Université C
+2024-11-15 10:18:21 INFO  UniversiteService:39 - Updating university with ID: 1
+2024-11-15 10:18:21 INFO  UniversiteService:33 - Adding a new university: Université D
+2024-11-15 10:18:21 INFO  UniversiteService:33 - Adding a new university: Université E
+2024-11-15 10:18:22 INFO  UniversiteService:39 - Updating university with ID: 3
+2024-11-15 10:18:22 INFO  UniversiteService:33 - Adding a new university: Université Foyer Test
+2024-11-15 10:18:22 INFO  UniversiteService:39 - Updating university with ID: 4
+2024-11-15 10:18:22 INFO  UniversiteService:33 - Adding a new university: Université A
+2024-11-15 10:18:22 INFO  UniversiteService:33 - Adding a new university: Université B
+2024-11-15 10:18:22 INFO  UniversiteService:33 - Adding a new university: Université Test
+2024-11-15 10:18:22 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-15 10:18:23 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-11-15 10:18:23 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2024-11-15 10:20:14 INFO  [/tpFoyer17]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-15 10:20:14 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-11-15 10:20:14 INFO  DispatcherServlet:554 - Completed initialization in 377 ms
+2024-11-15 10:20:15 INFO  UniversiteService:33 - Adding a new university: UniversitÃ© de Technologie
+2024-11-15 10:29:21 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-15 10:29:21 INFO  HikariDataSource:350 - HikariPool-5 - Shutdown initiated...
+2024-11-15 10:29:21 INFO  HikariDataSource:352 - HikariPool-5 - Shutdown completed.
+2024-11-15 10:29:37 INFO  TpFoyer17Application:51 - Starting TpFoyer17Application using Java 17.0.12 with PID 20768 (C:\Users\USER\DEVOPS\target\classes started by USER in C:\Users\USER\DEVOPS)
+2024-11-15 10:29:37 INFO  TpFoyer17Application:634 - No active profile set, falling back to 1 default profile: "default"
+2024-11-15 10:29:37 INFO  DevToolsPropertyDefaultsPostProcessor:250 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-15 10:29:37 INFO  DevToolsPropertyDefaultsPostProcessor:250 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-15 10:29:40 INFO  RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-15 10:29:41 INFO  RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 134 ms. Found 6 JPA repository interfaces.
+2024-11-15 10:29:42 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8082 (http)
+2024-11-15 10:29:42 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2024-11-15 10:29:42 INFO  StandardService:173 - Starting service [Tomcat]
+2024-11-15 10:29:42 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2024-11-15 10:29:42 INFO  [/tpFoyer17]:173 - Initializing Spring embedded WebApplicationContext
+2024-11-15 10:29:42 INFO  ServletWebServerApplicationContext:291 - Root WebApplicationContext: initialization completed in 4848 ms
+2024-11-15 10:29:43 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-15 10:29:43 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-11-15 10:29:43 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-11-15 10:29:43 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-15 10:29:44 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-15 10:29:44 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2024-11-15 10:29:45 ERROR HikariPool:594 - HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar:?]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:316) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:152) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:34) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:264) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:239) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:230) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:198) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:166) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1380) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1451) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) [spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) [spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) [spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1155) [spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932) [spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) [spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) [spring-boot-3.1.3.jar:3.1.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) [spring-boot-3.1.3.jar:3.1.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) [spring-boot-3.1.3.jar:3.1.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) [spring-boot-3.1.3.jar:3.1.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) [spring-boot-3.1.3.jar:3.1.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) [spring-boot-3.1.3.jar:3.1.3]
+	at tn.esprit.tpfoyer17.TpFoyer17Application.main(TpFoyer17Application.java:12) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.1.3.jar:3.1.3]
+2024-11-15 10:29:45 WARN  JdbcEnvironmentInitiator:244 - HHH000342: Could not obtain connection to query metadata
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar:?]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:316) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:152) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:34) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:264) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:239) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:230) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:198) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:166) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1380) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1451) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) [spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) [spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) [spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1155) [spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932) [spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) [spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) [spring-boot-3.1.3.jar:3.1.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) [spring-boot-3.1.3.jar:3.1.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) [spring-boot-3.1.3.jar:3.1.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) [spring-boot-3.1.3.jar:3.1.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) [spring-boot-3.1.3.jar:3.1.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) [spring-boot-3.1.3.jar:3.1.3]
+	at tn.esprit.tpfoyer17.TpFoyer17Application.main(TpFoyer17Application.java:12) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.1.3.jar:3.1.3]
+2024-11-15 10:29:45 ERROR LocalContainerEntityManagerFactoryBean:426 - Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'javax.persistence.jdbc.url', 'hibernate.connection.url', or 'hibernate.dialect')
+2024-11-15 10:29:45 WARN  AnnotationConfigServletWebServerApplicationContext:616 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'javax.persistence.jdbc.url', 'hibernate.connection.url', or 'hibernate.dialect')
+2024-11-15 10:29:45 INFO  StandardService:173 - Stopping service [Tomcat]
+2024-11-15 10:29:45 INFO  ConditionEvaluationReportLogger:82 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-15 10:29:45 ERROR SpringApplication:824 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'javax.persistence.jdbc.url', 'hibernate.connection.url', or 'hibernate.dialect')
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1155) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.3.jar:3.1.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) [spring-boot-3.1.3.jar:3.1.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) [spring-boot-3.1.3.jar:3.1.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) [spring-boot-3.1.3.jar:3.1.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) [spring-boot-3.1.3.jar:3.1.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) [spring-boot-3.1.3.jar:3.1.3]
+	at tn.esprit.tpfoyer17.TpFoyer17Application.main(TpFoyer17Application.java:12) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.1.3.jar:3.1.3]
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'javax.persistence.jdbc.url', 'hibernate.connection.url', or 'hibernate.dialect')
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:277) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:239) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:230) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:198) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:166) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1380) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1451) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 21 more
+Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please set 'javax.persistence.jdbc.url', 'hibernate.connection.url', or 'hibernate.dialect')
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:188) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:87) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:274) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:34) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:264) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:239) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:230) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:198) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:166) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1380) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1451) ~[hibernate-core-6.2.7.Final.jar:6.2.7.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 21 more
+2024-11-15 10:30:18 INFO  TpFoyer17Application:51 - Starting TpFoyer17Application using Java 17.0.12 with PID 9268 (C:\Users\USER\DEVOPS\target\classes started by USER in C:\Users\USER\DEVOPS)
+2024-11-15 10:30:18 INFO  TpFoyer17Application:634 - No active profile set, falling back to 1 default profile: "default"
+2024-11-15 10:30:18 INFO  DevToolsPropertyDefaultsPostProcessor:250 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-15 10:30:18 INFO  DevToolsPropertyDefaultsPostProcessor:250 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-15 10:30:20 INFO  RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-15 10:30:20 INFO  RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 113 ms. Found 6 JPA repository interfaces.
+2024-11-15 10:30:21 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8082 (http)
+2024-11-15 10:30:21 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2024-11-15 10:30:21 INFO  StandardService:173 - Starting service [Tomcat]
+2024-11-15 10:30:21 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2024-11-15 10:30:22 INFO  [/tpFoyer17]:173 - Initializing Spring embedded WebApplicationContext
+2024-11-15 10:30:22 INFO  ServletWebServerApplicationContext:291 - Root WebApplicationContext: initialization completed in 3915 ms
+2024-11-15 10:30:22 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-15 10:30:22 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-11-15 10:30:22 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-11-15 10:30:22 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-15 10:30:23 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-15 10:30:23 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2024-11-15 10:30:23 INFO  HikariPool:565 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72393cb6
+2024-11-15 10:30:23 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-11-15 10:30:23 WARN  Dialect:351 - HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2024-11-15 10:30:24 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-15 10:30:26 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-15 10:30:26 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-15 10:30:27 INFO  QueryEnhancerFactory:47 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-15 10:30:28 WARN  JpaBaseConfiguration$JpaWebConfiguration:231 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-15 10:30:30 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-11-15 10:30:30 INFO  EndpointLinksResolver:58 - Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-11-15 10:30:30 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8082"]
+2024-11-15 10:30:30 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8082 (http) with context path '/tpFoyer17'
+2024-11-15 10:30:30 INFO  TpFoyer17Application:57 - Started TpFoyer17Application in 13.497 seconds (process running for 16.807)
+2024-11-15 10:30:31 INFO  [/tpFoyer17]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-15 10:30:31 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-11-15 10:30:31 INFO  DispatcherServlet:554 - Completed initialization in 5 ms
