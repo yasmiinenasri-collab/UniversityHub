@@ -27,27 +27,27 @@ UniversityHub is a web application for managing universities, campuses, and rela
 - Nexus
 - Vagrant
 
-### Clone the Repo :
-    ```bash
-    git clone https://github.com/yasmiinenasri-collab/UniversityHub.git
-    cd UniversityHub
+### Clone the Repo 
 
-###Build the Project
 
-    ```bash
+        git clone https://github.com/yasmiinenasri-collab/UniversityHub.git
+        cd UniversityHub
+
+### Build the Project
+
     mvn clean install
-    Run Locally
+    
+Run Locally
 
-    ```bash
     mvn spring-boot:run
 
 Or with Docker:
 
-    ```bash
     docker build -t universityhub .
     docker run -p 8080:8080 universityhub
 
-### Points principaux :
-- **Simplification** du processus pour cloner, construire, et exécuter l'application.
-- **CI/CD** simplifié avec Jenkins, Maven, et Docker.
-- **Surveillance** avec Prometheus et Grafana, ainsi que gestion d'artefacts avec Nexus.
+## Key Points:
+- **Simplified** process for cloning, building, and running the application.
+- **Simplified CI/CD** with Jenkins, Maven, and Docker.
+- **Monitoring** with Prometheus and Grafana, along with artifact management using Nexus.
+
