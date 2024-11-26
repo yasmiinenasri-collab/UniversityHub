@@ -3132,3 +3132,40 @@ Caused by: org.hibernate.HibernateException: Unable to determine Dialect without
 2024-11-15 10:30:31 INFO  [/tpFoyer17]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-11-15 10:30:31 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
 2024-11-15 10:30:31 INFO  DispatcherServlet:554 - Completed initialization in 5 ms
+2024-11-15 11:01:52 INFO  TpFoyer17Application:51 - Starting TpFoyer17Application using Java 17.0.12 with PID 21440 (C:\Users\USER\DEVOPS\target\classes started by USER in C:\Users\USER\DEVOPS)
+2024-11-15 11:01:52 INFO  TpFoyer17Application:634 - No active profile set, falling back to 1 default profile: "default"
+2024-11-15 11:01:52 INFO  DevToolsPropertyDefaultsPostProcessor:250 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-15 11:01:52 INFO  DevToolsPropertyDefaultsPostProcessor:250 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-15 11:01:56 INFO  RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-15 11:01:56 INFO  RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 153 ms. Found 6 JPA repository interfaces.
+2024-11-15 11:01:57 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8082 (http)
+2024-11-15 11:01:57 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2024-11-15 11:01:57 INFO  StandardService:173 - Starting service [Tomcat]
+2024-11-15 11:01:57 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2024-11-15 11:01:57 INFO  [/tpFoyer17]:173 - Initializing Spring embedded WebApplicationContext
+2024-11-15 11:01:57 INFO  ServletWebServerApplicationContext:291 - Root WebApplicationContext: initialization completed in 5133 ms
+2024-11-15 11:01:58 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-15 11:01:58 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-11-15 11:01:58 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2024-11-15 11:01:58 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-15 11:01:58 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-15 11:01:58 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2024-11-15 11:01:59 INFO  HikariPool:565 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6814b5e1
+2024-11-15 11:01:59 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-11-15 11:01:59 WARN  Dialect:351 - HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2024-11-15 11:02:00 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2024-11-15 11:02:01 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-15 11:02:02 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-15 11:02:03 INFO  QueryEnhancerFactory:47 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-15 11:02:04 WARN  JpaBaseConfiguration$JpaWebConfiguration:231 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-15 11:02:06 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-11-15 11:02:06 INFO  EndpointLinksResolver:58 - Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-11-15 11:02:06 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8082"]
+2024-11-15 11:02:06 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8082 (http) with context path '/tpFoyer17'
+2024-11-15 11:02:06 INFO  TpFoyer17Application:57 - Started TpFoyer17Application in 15.797 seconds (process running for 26.253)
+2024-11-15 11:02:07 INFO  [/tpFoyer17]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-15 11:02:07 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-11-15 11:02:07 INFO  DispatcherServlet:554 - Completed initialization in 3 ms
+2024-11-15 11:13:21 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-15 11:13:21 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-11-15 11:13:21 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
